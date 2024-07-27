@@ -12,3 +12,5 @@ sites-enabled/*
 
 # allow all files planed for changes
 !mods-available/ssl.conf
+!sites-available/000_vhost_080_default.conf
+!sites-available/010_vhost_443_default.conf
