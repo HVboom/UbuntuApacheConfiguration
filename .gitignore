@@ -1,0 +1,14 @@
+# ignore all default files
+apache2.conf
+conf-available/*
+conf-enabled/*
+envvars
+magic
+mods-available/*
+mods-enabled/*
+ports.conf
+sites-available/*
+sites-enabled/*
+
+# allow all files planed for changes
+!mods-available/ssl.conf
