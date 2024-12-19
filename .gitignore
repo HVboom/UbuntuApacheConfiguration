@@ -14,4 +14,5 @@ sites-enabled/*
 !mods-available/ssl.conf
 !sites-available/000_vhost_080_default.conf
 !sites-available/020_vhost_443_vscode.conf
+!sites-available/030_vhost_443_rails.conf
 !sites-available/999_vhost_443_default.conf
